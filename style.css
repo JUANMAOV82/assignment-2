@@ -36,6 +36,14 @@ nav li a {
     border-bottom: none;
 }
 
+#albumlink {
+    padding: 12px;
+    background-color: rgb(223, 92, 205);
+    order: 1;
+}
+
+
+
 @media (min-width:600px) {
     nav ul{
         flex-direction: row;
@@ -46,7 +54,7 @@ nav li a {
         border-bottom: 2px solid rgb(0, 195, 255);
     }
 
-    #homelink {
+    #albumlink {
         padding: 12px;
         background-color: rgb(223, 92, 205);
         order: 1;
@@ -54,11 +62,24 @@ nav li a {
 
     #bloglink {
         order: 2;
+        background-color: rgb(90, 44, 109);
     }
 
     #connectlink {
         order: 3;
+        background-color: rgb(90, 44, 109);
     }
+
+    #Alink{
+        background-color: rgb(90, 44, 109);
+
+    }
+
+    #Blink{
+        background-color: rgb(90, 44, 109);
+
+    }
+
 }
 
 .current {
@@ -82,6 +103,8 @@ h3 {
     color: rgb(147, 197, 192);
     font-size: 32px;
 }
+
+p{text-align:center} 
 
 @media (min-width:900px) {
     

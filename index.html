@@ -17,9 +17,9 @@
     <header>
         <nav>
             <ul>
-                <li class="current" id="homelink"><a href="#">album</a></li>
-                <li><a href="#">side A</a></li>
-                <li><a href="#">side B</a></li>
+                <li class="current" id="albumlink"><a href="#">album</a></li>
+                <li id="Alink"><a href="#">side A</a></li>
+                <li id="Blink"><a href="#">side B</a></li>
                 <li id="bloglink"><a href="#">Info</a></li>
                 <li class="no-btm-border" id="connectlink"><a href="#">Connect</a></li>
             </ul>
@@ -28,8 +28,12 @@
     <main>
         <h1>No sleep till Tokyo</h1>
         <h3>-Miyavi-</h3>
-        <p><img src="images/cover.png"></p>
+        <p><img src=""></p>
     </main>
-    <footer></footer>
+    <picture>
+        <source srcset="images/cover.png" media="(max-width: 600px)" >
+        <source srcset="images/cover-2.png" media="(max-width: 900px)" >
+        <img src="images/Yuanlin-cover.png" alt="cover">
+    </picture>
 </body>
 </html>
